@@ -87,7 +87,7 @@
                     if (this.currentPost === null || this.currentPost === undefined) {
                         this.$router.replace({ name: 'posts' });
                     }
-                    if(this.currentPost.slug == "store-status-at-norco-village") {
+                    if(this.currentPost.slug == "store-status-at-redlands-village") {
                         gtag('event', 'conversion', {'send_to': 'AW-718925610/62gqCO-FhcYBEKre59YC'});
                     }
                 },
