@@ -10,10 +10,11 @@
                     <p class="footer_heading">NEWSLETTER SUBSCRIPTION</p>
                     <p>Stay up to date on the latest news from {{ property.name }}!</p>
                     <form id="subForm" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1A6A5E0FFD6C8E21D135DE3E3150C3B3913FD1A29FE19306EE876FB9300987008E5F0E6EA0EED5850061C3FA90C2A0138E">	
-                        <label class="accessibility" for="fieldEmail">Email</label>
-                        <input id="fieldEmail" name="cm-ydiudkk-ydiudkk" type="email" class="js-cm-email-input" placeholder="Your Email" required />
+                        <label class="accessibility" for="fieldEmail">Email </label>
+                        <input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" placeholder="Your Email" id="fieldEmail" maxlength="200" name="cm-ydiudkk-ydiudkk" required="" type="email">
+                        <input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true">
                         <button id="newsletter_submit" class="js-cm-submit-button" type="submit">Subscribe To Our Newsletter</button>
-                    </form>
+                   </form>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <p class="footer_heading">FOLLOW US ON FACEBOOK</p>
